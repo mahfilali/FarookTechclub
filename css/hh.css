@@ -39,14 +39,14 @@ header {
     align-items: center;
     position: relative;
 }
-header h1.left {
+header div.left {
     width: 100px;
 }
-header h1.left a {
+header div.left a {
     width: 100%;
     display: block;
 }
-header h1.left a img {
+header div.left a img {
     width: 100%;
     display: block;
 }
@@ -79,7 +79,7 @@ header nav.menu ul li a {
     display: block;
 }
 #mobile-menu {
-    /*display: none;*/
+    display: none;
 }
 
 #mobile-menu {
@@ -247,9 +247,16 @@ div.item img {
     width:100%;
     height: 100%;
 }
+.gi {
+    text-align: center;
+    margin-top: 5rem;
+    padding-bottom: 20px;
+}
 @media all and (max-width: 980px) {
     #menu-icon {
         display: block;
+        width: 86px;
+        height: 35px;
     }
     span.close {
         display: block;
@@ -259,11 +266,17 @@ div.item img {
     }
     .bgimg img{
         width: 100%;
-        height: 700px;
+        height: 800px;
     }
-}
-.gi {
-    text-align: center;
-    margin-top: 5rem;
-    padding-bottom: 20px;
+    header div.left {
+        width: 165px;
+        height: 100px;
+    }
+    #mobile-menu {
+        display: block;
+    }
+    #mobile-menu h1 {
+        padding-bottom: 35px;
+        font-size: 35px;
+    }
 }
