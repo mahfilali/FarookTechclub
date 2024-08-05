@@ -19,7 +19,7 @@ $(document).ready(function () {
         items: 1,
         loop: true,
         autoplay: true,
-        autoplayTimeout: 2500,
+        autoplayTimeout: 2250,
         autoplayHoverPause: true,
         autoWidth:true,
         margin:10,
