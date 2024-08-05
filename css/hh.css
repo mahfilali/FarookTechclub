@@ -248,12 +248,7 @@ div.item img {
 .gi {
     text-align: center;
     margin-top: 5rem;
-    padding-bottom: 40px;
-    font-size: 65px;
-}
-.phm {
-    font-size: 65px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 @media all and (max-width: 980px) {
     #menu-icon {
@@ -269,7 +264,7 @@ div.item img {
     }
     .bgimg img{
         width: 100%;
-        height: 700px;
+        height: 800px;
     }
     header div.left {
         width: 165px;
